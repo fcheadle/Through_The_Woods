@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0357ea2b80e842a097de272f35992ca, type: 3}
+  m_Name: Wolf Dash Port
+  m_EditorClassIdentifier: 
+  name: Wolf Dash
+  description: 
+  artwork: {fileID: 0}
+  linkedAbility: {fileID: 0}
+  targettingClass: 2
+  attackTarget: 1
+  globalTargetCells:
+  - {x: 1, y: 0}
+  - {x: 2, y: 0}
+  - {x: 3, y: 0}
+  - {x: 4, y: 0}
+  relativeTargetCells:
+  - {x: 1, y: 0}
+  - {x: 2, y: 0}
+  - {x: 3, y: 0}
+  - {x: 4, y: 0}
+  attackChannelTime: 4
+  attackCD: 20
+  damageType: 0
+  magicType: 0
+  damageModifier: 1
+  damageFlat: 100
+  healAmount: 0
+  neutralState: 0
+  changeCounterAttack: {fileID: 0}
+  statusEffect: 0
+  statusEffectTimer: 0
+  statChange: 0
+  statChangeValue: 0
+  attackVariant: 0
+  pushIsGlobal: 0
+  push: 0
+  pushForce: 0
+  enemyCreate: {fileID: 0}
+  trapCreate: {fileID: 0}
+  pushableCreate: {fileID: 0}
+  usesRails: 1
+  onRailsPath:
+  - {fileID: 1845871452329879941, guid: d9fbba1a17f274c209ef978414a637e3, type: 3}
+  RequiredCells: []
+  RequiredWing: 1
+  LandingCell: {x: 5, y: 0}
+  desperation: 0
+  reversal: 0
