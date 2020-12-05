@@ -15,6 +15,9 @@ MonoBehaviour:
   name: Crescent Edge
   description: 
   artwork: {fileID: 0}
+  actorAnimation: 0
+  abilityEffectHandler: {fileID: 2965531467826458343, guid: 91df51bedc29e4b259c8b3d1c3e149db,
+    type: 3}
   linkedAbility: {fileID: 11400000, guid: 96fa28f4cfc364fb0a4df926f02b5ce8, type: 2}
   actorTargetingType: 1
   attackChannelTime: 5
@@ -44,3 +47,5 @@ MonoBehaviour:
   push: 0
   pull: 0
   leap: 0
+  swanSong: 0
+  legendary: 0

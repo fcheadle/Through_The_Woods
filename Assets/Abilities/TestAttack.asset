@@ -23,12 +23,9 @@ MonoBehaviour:
   - {x: 2, y: 1}
   - {x: 3, y: 1}
   relativeTargetCells:
-  - {x: 1, y: 0}
   - {x: 2, y: 0}
-  - {x: 3, y: 0}
-  - {x: 4, y: 0}
   attackChannelTime: 6
-  attackCD: 6
+  attackCD: 24
   damageType: 0
   magicType: 0
   damageModifier: 1.5

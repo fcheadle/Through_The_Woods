@@ -15,6 +15,9 @@ MonoBehaviour:
   name: Luna Magnus
   description: 
   artwork: {fileID: 0}
+  actorAnimation: 0
+  abilityEffectHandler: {fileID: 6299454619423230540, guid: e7475bdbde4c64d45a268e55caeee8d3,
+    type: 3}
   linkedAbility: {fileID: 0}
   actorTargetingType: 7
   attackChannelTime: 11
@@ -22,7 +25,7 @@ MonoBehaviour:
   damageType: 1
   magicType: 2
   damageModifier: 0
-  damageFlat: 20
+  damageFlat: 300
   healAmount: 0
   canRevive: 0
   neutralState: 0
@@ -44,3 +47,5 @@ MonoBehaviour:
   push: 0
   pull: 0
   leap: 0
+  swanSong: 0
+  legendary: 0

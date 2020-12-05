@@ -15,6 +15,12 @@ MonoBehaviour:
   name: Second Wind
   description: 
   artwork: {fileID: 0}
+  actorAnimation: 0
+  startingVFX: {fileID: 0}
+  endingVFX: {fileID: 0}
+  dimTheLights: 0
+  animationTimer: 2
+  projectile: {fileID: 0}
   linkedAbility: {fileID: 0}
   actorTargetingType: 6
   attackChannelTime: 0

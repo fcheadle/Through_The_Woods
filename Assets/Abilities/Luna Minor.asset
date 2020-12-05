@@ -15,6 +15,9 @@ MonoBehaviour:
   name: Luna Minor
   description: 
   artwork: {fileID: 0}
+  actorAnimation: 4
+  abilityEffectHandler: {fileID: 8333046391973338893, guid: f983e44bc94064eac8d51b9c69297953,
+    type: 3}
   linkedAbility: {fileID: 0}
   actorTargetingType: 2
   attackChannelTime: 5
@@ -44,3 +47,5 @@ MonoBehaviour:
   push: 0
   pull: 0
   leap: 0
+  swanSong: 0
+  legendary: 0

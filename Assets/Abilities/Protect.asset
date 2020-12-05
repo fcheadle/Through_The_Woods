@@ -15,6 +15,9 @@ MonoBehaviour:
   name: Protect
   description: 
   artwork: {fileID: 0}
+  actorAnimation: 0
+  abilityEffectHandler: {fileID: 7759942876892860883, guid: 7ffaedef56b774faa9e65367cbfc094a,
+    type: 3}
   linkedAbility: {fileID: 0}
   actorTargetingType: 9
   attackChannelTime: 0

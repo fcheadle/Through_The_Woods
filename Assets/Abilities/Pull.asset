@@ -15,8 +15,11 @@ MonoBehaviour:
   name: Pull
   description: 
   artwork: {fileID: 0}
+  actorAnimation: 4
+  abilityEffectHandler: {fileID: 1516509496505529525, guid: 2d586a6071c5a4213866cd1ee96719e2,
+    type: 3}
   linkedAbility: {fileID: 0}
-  actorTargetingType: 3
+  actorTargetingType: 9
   attackChannelTime: 0
   attackCD: 8
   damageType: 2
@@ -44,3 +47,5 @@ MonoBehaviour:
   push: 0
   pull: 1
   leap: 0
+  swanSong: 0
+  legendary: 0

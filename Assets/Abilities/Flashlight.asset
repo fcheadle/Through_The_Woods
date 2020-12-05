@@ -15,6 +15,9 @@ MonoBehaviour:
   name: Flashlight
   description: 
   artwork: {fileID: 0}
+  actorAnimation: 4
+  abilityEffectHandler: {fileID: 7868955250243026499, guid: d40f8e05cafa240b3aa6190d1de65d29,
+    type: 3}
   linkedAbility: {fileID: 0}
   actorTargetingType: 2
   attackChannelTime: 5

@@ -15,6 +15,12 @@ MonoBehaviour:
   name: Crescent Edge Linked
   description: 
   artwork: {fileID: 0}
+  actorAnimation: 0
+  startingVFX: {fileID: 0}
+  endingVFX: {fileID: 0}
+  dimTheLights: 1
+  animationTimer: 3
+  projectile: {fileID: 0}
   linkedAbility: {fileID: 0}
   actorTargetingType: 1
   attackChannelTime: 0
@@ -44,3 +50,5 @@ MonoBehaviour:
   push: 0
   pull: 0
   leap: 0
+  swanSong: 0
+  legendary: 0

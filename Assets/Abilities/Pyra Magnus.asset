@@ -15,6 +15,12 @@ MonoBehaviour:
   name: Pyra Magnus
   description: 
   artwork: {fileID: 0}
+  actorAnimation: 0
+  startingVFX: {fileID: 0}
+  endingVFX: {fileID: 6077382798661638928, guid: f9c226ea9534b45d3aed95dd500e0c98,
+    type: 3}
+  dimTheLights: 1
+  animationTimer: 5
   linkedAbility: {fileID: 0}
   actorTargetingType: 7
   attackChannelTime: 12
@@ -44,3 +50,5 @@ MonoBehaviour:
   push: 0
   pull: 0
   leap: 0
+  swanSong: 0
+  legendary: 0
