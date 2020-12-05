@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Aisling Override
+  m_Controller: {fileID: 9100000, guid: b282b229da1234a8987f6208ddba11e1, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 823bf8918e9574bd8826e6ccc84418da, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: ddda80b3008f14a24bbfb64dbb60a529, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 9f2c51f742e93411eb67bf4d5be7ef13, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: df67cf7fdd4ac4fafa7c6bc0718b052f, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: b42be0bd6f1ae49dc962811a6d27b133, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 3cb5c1d64ec924dc48879df745a69f15, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 645551c9cd1384db3aae847c48da246a, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1f2085be4124a41b0b33ee50fa81f595, type: 2}
