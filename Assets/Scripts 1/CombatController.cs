@@ -5,7 +5,6 @@ using UnityEngine;
 using TTW.UI;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
-using TTW.Graphics;
 
 namespace TTW.Combat
 {
