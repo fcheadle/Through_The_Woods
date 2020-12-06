@@ -4,9 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - midgroundLight
-  - stageLight
-  - backgroundLight
+  - AttackPath
   layers:
   - Default
   - TransparentFX
@@ -16,9 +14,9 @@ TagManager:
   - UI
   - 
   - 
-  - Stage
-  - BG1
-  - BG2
+  - PostProcessing
+  - 
+  - 
   - 
   - 
   - 
