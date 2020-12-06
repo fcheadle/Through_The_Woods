@@ -46,6 +46,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 25
   poppyTimer: 20
+  triggerVFX: {fileID: -7337805495675944260, guid: f3f3ad4720c0b4d6f92a56d20f278ac3,
+    type: 3}
   trapType: 1
 --- !u!1001 &6569421239363397077
 PrefabInstance:
@@ -58,6 +60,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Spikes
+      objectReference: {fileID: 0}
+    - target: {fileID: 4470402073553405917, guid: d3d2d4cc18e9b4e44b9a18720af9c1ca,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4470402073553405917, guid: d3d2d4cc18e9b4e44b9a18720af9c1ca,
         type: 3}
@@ -76,6 +83,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4470402073553405917, guid: d3d2d4cc18e9b4e44b9a18720af9c1ca,
         type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4470402073553405917, guid: d3d2d4cc18e9b4e44b9a18720af9c1ca,
+        type: 3}
       propertyPath: m_LocalRotation.x
       value: -0
       objectReference: {fileID: 0}
@@ -88,16 +100,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4470402073553405917, guid: d3d2d4cc18e9b4e44b9a18720af9c1ca,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4470402073553405917, guid: d3d2d4cc18e9b4e44b9a18720af9c1ca,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4470402073553405917, guid: d3d2d4cc18e9b4e44b9a18720af9c1ca,
         type: 3}
