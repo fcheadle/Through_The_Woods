@@ -16,41 +16,17 @@ MonoBehaviour:
   description: 
   artwork: {fileID: 0}
   linkedAbility: {fileID: 0}
-  targettingClass: 4
-  attackTarget: 2
-  globalTargetCells:
-  - {x: 0, y: 0}
-  - {x: 0, y: 0}
-  - {x: 0, y: 0}
-  - {x: 0, y: 0}
-  - {x: 0, y: 0}
-  - {x: 0, y: 0}
-  - {x: 0, y: 0}
-  - {x: 0, y: 0}
-  - {x: 0, y: 0}
-  - {x: 0, y: 0}
-  - {x: 0, y: 0}
-  - {x: 0, y: 0}
-  relativeTargetCells:
-  - {x: 0, y: 0}
-  - {x: 0, y: 0}
-  - {x: 0, y: 0}
-  - {x: 0, y: 0}
-  - {x: 0, y: 0}
-  - {x: 0, y: 0}
-  - {x: 0, y: 0}
-  - {x: 0, y: 0}
-  - {x: 0, y: 0}
-  - {x: 0, y: 0}
-  - {x: 0, y: 0}
-  - {x: 0, y: 0}
+  targettingClass: 5
+  attackTarget: 0
+  globalTargetCells: []
+  relativeTargetCells: []
   attackChannelTime: 5
   attackCD: 400
-  damageType: 1
+  damageType: 3
   magicType: 3
   damageModifier: 0
   damageFlat: 40
-  healAmount: 0
+  healAmount: 10
   neutralState: 0
   changeCounterAttack: {fileID: 0}
   statusEffect: 0

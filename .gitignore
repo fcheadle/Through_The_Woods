@@ -4,6 +4,22 @@
 /[Bb]uild/
 /[Bb]uilds/
 /Assets/AssetStoreTools*
+/Assets/Mirza Beig/
+/Assets/Presets/
+/Assets/ProBuilder Data/
+/Assets/QuickOutline/
+/Assets/TextMesh Pro/
+/Assets/SWS/
+/Assets/TutorialInfo/
+/Assets/Vectrosity/
+/Assets/Samples/
+/Assets/LeanTween/
+/Assets/ExampleAssets/
+/Assets/BOXOPHOBIC/
+/Assets/SWS/
+/Assets/Sprites/
+
+
 
 # Visual Studio 2015 cache directory
 /.vs/

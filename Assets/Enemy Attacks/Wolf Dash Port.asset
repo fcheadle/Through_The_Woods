@@ -17,7 +17,7 @@ MonoBehaviour:
   artwork: {fileID: 0}
   linkedAbility: {fileID: 0}
   targettingClass: 2
-  attackTarget: 1
+  attackTarget: 2
   globalTargetCells:
   - {x: 1, y: 0}
   - {x: 2, y: 0}
@@ -28,11 +28,11 @@ MonoBehaviour:
   - {x: 2, y: 0}
   - {x: 3, y: 0}
   - {x: 4, y: 0}
-  attackChannelTime: 4
-  attackCD: 20
+  attackChannelTime: 3
+  attackCD: 15
   damageType: 0
   magicType: 0
-  damageModifier: 1
+  damageModifier: 2.5
   damageFlat: 100
   healAmount: 0
   neutralState: 0

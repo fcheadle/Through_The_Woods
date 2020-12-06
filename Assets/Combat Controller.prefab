@@ -1,0 +1,122 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4833101613980485618
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4833101613980485616}
+  - component: {fileID: 4833101613980485619}
+  - component: {fileID: 4833101613707905489}
+  - component: {fileID: 4833101613707905495}
+  - component: {fileID: 4833101613707905493}
+  m_Layer: 0
+  m_Name: Combat Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4833101613980485616
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4833101613980485618}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.49, y: 13.48, z: -1.0807571}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4833101613980485619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4833101613980485618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36fcf3e809da44521979931804c59731, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actorInPosition:
+  - {fileID: 500957392, guid: 108b16e6a59a048688ab4437ae32e355, type: 3}
+  - {fileID: 774851551510862282, guid: fd6036e621bdf4b99a6e267ae403ec56, type: 3}
+  - {fileID: 1634330421338559964, guid: b0b4f510b658d44898c0ed369ac6ef34, type: 3}
+  actorOnBench:
+  - {fileID: 2321099099985132833, guid: 1669843e3f1154fa89709f54a244b611, type: 3}
+  - {fileID: 2661489388392326318, guid: 18eeccd54f4a449e387a73714fbd2a4e, type: 3}
+  - {fileID: 6836892988808803750, guid: 4eb184e07a2a3422eb935c50dce511ab, type: 3}
+  - {fileID: 4860030373855337455, guid: bb9ca6831e2f94f99b05542b5b58820f, type: 3}
+  - {fileID: 8086528981899325006, guid: 940b6101f113b48a8b56b7b0ef3fb1cd, type: 3}
+  - {fileID: 4809821023709524313, guid: fd5c3358adbab46099edf7cd5651837e, type: 3}
+  - {fileID: 1870644010283521195, guid: f6bd70fffde364c00a6a819d41f681c2, type: 3}
+  - {fileID: 3758993419249895776, guid: 062ea4db983a046c18839c3f1561a7ad, type: 3}
+  - {fileID: 7726933940444589175, guid: 60ff30c3e77b44e319df057101446549, type: 3}
+  - {fileID: 8716786008953681302, guid: 6cfd3bfb6acb4496fa56d1d4c8be5287, type: 3}
+  actorsRemoved: []
+  enemyInPosition: []
+  selectedPosition: 0
+  highlightedActorPosition: 0
+  highlightedActiveActorPosition: 0
+  highlightedAllyPosition: 0
+  highlightedAttackPosition: 0
+  highlightedEnemyPosition: 0
+  selectorInPosition:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  attackSelectorInPosition:
+  - {fileID: 4576005489802182034, guid: 40653444a86a4477e83cdf3b23186bb2, type: 3}
+  - {fileID: 3178575275921269010, guid: 910c4f987c4154e6cb24f108ce5e00a3, type: 3}
+  - {fileID: 1801923379853666109, guid: fcb0170b362c749de9afd800accbd220, type: 3}
+  - {fileID: 4205975821925062097, guid: f6fb5ccae2e194d30b1cf7d8a4a79f77, type: 3}
+  evasionDifferential: 40
+  selectedTargets: []
+  currentState: 0
+  savedState: 0
+  previousState: 0
+  pressedA: 0
+--- !u!114 &4833101613707905489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4833101613980485618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b0c6de9094d74f50b03d24f9328869e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4833101613707905495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4833101613980485618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 101c9d3f0154e469ca929299cd8a01f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4833101613707905493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4833101613980485618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d9968655a6954a8bb3032ca966b2d07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

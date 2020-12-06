@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0357ea2b80e842a097de272f35992ca, type: 3}
+  m_Name: Move Starboard Down 1
+  m_EditorClassIdentifier: 
+  name: 
+  description: 
+  artwork: {fileID: 0}
+  linkedAbility: {fileID: 0}
+  targettingClass: 1
+  attackTarget: 0
+  globalTargetCells: []
+  relativeTargetCells:
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  attackChannelTime: 0
+  attackCD: 5
+  damageType: 2
+  magicType: 0
+  damageModifier: 0
+  damageFlat: 0
+  healAmount: 0
+  neutralState: 0
+  changeCounterAttack: {fileID: 0}
+  statusEffect: 0
+  statusEffectTimer: 0
+  statChange: 0
+  statChangeValue: 0
+  attackVariant: 0
+  pushIsGlobal: 0
+  push: 0
+  pushForce: 0
+  enemyCreate: {fileID: 0}
+  trapCreate: {fileID: 0}
+  pushableCreate: {fileID: 0}
+  usesRails: 1
+  onRailsPath:
+  - {fileID: 2504918701349961172, guid: f9871e733439046e0a3f6ce1dd15bbc6, type: 3}
+  RequiredCells:
+  - {x: 5, y: 2}
+  RequiredWing: 0
+  LandingCell: {x: 5, y: 1}
+  desperation: 0
+  reversal: 0

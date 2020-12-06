@@ -17,18 +17,18 @@ MonoBehaviour:
   artwork: {fileID: 0}
   linkedAbility: {fileID: 0}
   targettingClass: 2
-  attackTarget: 1
+  attackTarget: 2
   globalTargetCells: []
   relativeTargetCells:
-  - {x: 1, y: 5}
-  - {x: 2, y: 5}
-  - {x: 3, y: 5}
-  - {x: 4, y: 5}
-  attackChannelTime: 2
-  attackCD: 2
+  - {x: 1, y: 0}
+  - {x: 2, y: 0}
+  - {x: 3, y: 0}
+  - {x: 4, y: 0}
+  attackChannelTime: 3
+  attackCD: 15
   damageType: 0
   magicType: 0
-  damageModifier: 1
+  damageModifier: 2.5
   damageFlat: 100
   healAmount: 10
   neutralState: 0
