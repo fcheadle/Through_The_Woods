@@ -21,3 +21,4 @@ MonoBehaviour:
   evasion: 10
   speed: 10
   zodiac: 4
+  counterAttack: {fileID: 0}

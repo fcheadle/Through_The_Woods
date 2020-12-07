@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e0357ea2b80e842a097de272f35992ca, type: 3}
-  m_Name: Alluring Flame
+  m_Name: Alluring Flame 2
   m_EditorClassIdentifier: 
   name: Alluring Flame
   description: 
@@ -69,5 +69,6 @@ MonoBehaviour:
   - {fileID: 0}
   RequiredCells: []
   RequiredWing: 0
+  LandingCell: {x: 0, y: 0}
   desperation: 0
   reversal: 0

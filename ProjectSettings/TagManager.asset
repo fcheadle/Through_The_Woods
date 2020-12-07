@@ -7,6 +7,7 @@ TagManager:
   - midgroundLight
   - stageLight
   - backgroundLight
+  - Enemy
   layers:
   - Default
   - TransparentFX

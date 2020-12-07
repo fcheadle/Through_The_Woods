@@ -15,9 +15,10 @@ MonoBehaviour:
   name: Art
   artwork: {fileID: 0}
   health: 100
+  cooldown: 0
   strength: 10
   armor: 10
   evasion: 10
   speed: 10
   zodiac: 3
-  mooring: {fileID: 11400000, guid: 300d9852d60594ebbb2ddc895a150ebf, type: 2}
+  mooring: {fileID: 0}

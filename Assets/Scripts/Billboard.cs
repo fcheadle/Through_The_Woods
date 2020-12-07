@@ -2,10 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Billboard : MonoBehaviour
+namespace TTW.World
 {
-    void Update()
+    public class Billboard : MonoBehaviour
     {
-        transform.LookAt(Camera.main.transform, Vector3.up);
+        float fixedRotation = 360f;
+
+        void Update()
+        {
+            transform.eulerAngles = new Vector3(transform.eulerAngles.x, fixedRotation, transform.eulerAngles.z);
+        }
     }
 }

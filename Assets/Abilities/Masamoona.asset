@@ -15,7 +15,9 @@ MonoBehaviour:
   name: Masamoona
   description: 
   artwork: {fileID: 0}
-  linkedAbility: {fileID: 11400000, guid: 59265279e1dd540d29d1d911e363c7b7, type: 2}
+  actorAnimation: 0
+  abilityEffectHandler: {fileID: 0}
+  linkedAbility: {fileID: 11400000, guid: 2e222096082d94720a8b6676ca875073, type: 2}
   actorTargetingType: 1
   attackChannelTime: 10
   attackCD: 18

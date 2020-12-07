@@ -10,11 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1493a4b4261e14cad842fe5d57c4e941, type: 3}
-  m_Name: Deep Roots Linked
+  m_Name: Deep Roots Linked 2
   m_EditorClassIdentifier: 
   name: Deep Roots Linked
   description: 
   artwork: {fileID: 0}
+  actorAnimation: 0
+  abilityEffectHandler: {fileID: 0}
   linkedAbility: {fileID: 0}
   actorTargetingType: 4
   attackChannelTime: 0
@@ -44,3 +46,5 @@ MonoBehaviour:
   push: 0
   pull: 0
   leap: 0
+  swanSong: 0
+  legendary: 0
